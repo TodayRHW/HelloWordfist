@@ -31,6 +31,7 @@
 		96D778B0184B341D006E8951 /* CSSectionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D778AF184B341C006E8951 /* CSSectionHeaderCell.xib */; };
 		96D778B3184B3B54006E8951 /* CSComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D778B2184B3B54006E8951 /* CSComponentsViewController.m */; };
 		A787D0F7917445C4BAFF8C7A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A78DC2869B4F67B79E82F0 /* libPods.a */; };
+		BC0AD4051C33C726007314CA /* MYClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0AD4041C33C726007314CA /* MYClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		96D778AF184B341C006E8951 /* CSSectionHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSSectionHeaderCell.xib; sourceTree = "<group>"; };
 		96D778B1184B3B54006E8951 /* CSComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSComponentsViewController.h; sourceTree = "<group>"; };
 		96D778B2184B3B54006E8951 /* CSComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSComponentsViewController.m; sourceTree = "<group>"; };
+		BC0AD4031C33C726007314CA /* MYClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYClass.h; sourceTree = "<group>"; };
+		BC0AD4041C33C726007314CA /* MYClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 			children = (
 				96CC1C08184AFC8D00506C40 /* AppDelegate.h */,
 				96CC1C09184AFC8D00506C40 /* AppDelegate.m */,
+				BC0AD4031C33C726007314CA /* MYClass.h */,
+				BC0AD4041C33C726007314CA /* MYClass.m */,
 				96CC1C0B184AFC8D00506C40 /* Main_iPhone.storyboard */,
 				96CC1C0E184AFC8D00506C40 /* Main_iPad.storyboard */,
 				96D778B4184B3B64006E8951 /* View Controllers */,
@@ -362,6 +367,7 @@
 				1A40F73E1851A7C000483898 /* CanvasInfo.m in Sources */,
 				1A40F73B1851A74D00483898 /* Canvas.xcdatamodeld in Sources */,
 				96CC1C13184AFC8D00506C40 /* CSUsageViewController.m in Sources */,
+				BC0AD4051C33C726007314CA /* MYClass.m in Sources */,
 				96CC1C0A184AFC8D00506C40 /* AppDelegate.m in Sources */,
 				96CC1C06184AFC8D00506C40 /* main.m in Sources */,
 				960E1D67184C9E7E00F297E9 /* CSSectionHeaderCell.m in Sources */,

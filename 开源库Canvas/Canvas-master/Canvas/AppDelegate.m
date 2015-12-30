@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "CanvasIncrementalStore.h"
 #import "CSTabBarViewController.h"
-
+#import "MYClass.h"
 @import CoreData;
 
 @interface AppDelegate ()
@@ -20,11 +20,13 @@
 
 
 @implementation AppDelegate
-
+///我是Developer分支
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
 
+    //adsfasd;lfjalsdkfja;lsdfk;alsdkfaaaaaaaa
+    MYClass *myclass = [MYClass new];
     CSTabBarViewController *controller = (id)self.window.rootViewController;
     controller.managedObjectContext = self.managedObjectContext;
     
